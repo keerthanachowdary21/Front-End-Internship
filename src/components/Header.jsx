@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import {swiftlogo} from "../assets/swiftlogo.png";
+import swiftlogo from "../assets/swiftlogo.png";
 import { fetchUsers } from "../../api";
 import { useNavigate } from "react-router-dom";
 import HeaderSkeleton from "./HeaderSkeleton";
